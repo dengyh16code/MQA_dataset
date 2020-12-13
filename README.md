@@ -33,7 +33,7 @@ First, you need to unzip data.zip, then you will get:
 
 We bulid our dataset in a simulation environment named [V-REP](http://coppeliarobotics.com/). First, you need to open the our simulation scene file [Simulation.ttt](./scene.ttt) in [V-REP](http://coppeliarobotics.com/). 
 
-![](./simultaion.png)
+![image](https://github.com/dengyh16code/MQA_dataset/blob/main/simultaion.png)
 
 ### Using the python remote api to load scene
 Then you can use the python scipt [test.py](./test.py) to load different scene in our dataset, where group_num can be taken from 0 to 9 and scene_num can be taken from 0 to 9. Different group_num and scene_num represent loading different scenes.
@@ -41,11 +41,10 @@ Then you can use the python scipt [test.py](./test.py) to load different scene i
 ```sh
     python test.py -group_num 1 -scene_num 0 
 ```
-a group_num and scene_num represent loading different scenes.
 
-![](./group_1_scene_0.png)
+![image](https://github.com/dengyh16code/MQA_dataset/blob/main/group_1_scene_0.png)
 
-More remote api function(such as getting camera data, controlling UR5 manipulator, load questions) can be found in [environment.py](./environment.py).
+More remote api function(such as getting camera data, controlling UR5 manipulator, load questions) can be found in [enviroment.py](./enviroment.py).
 
 ## Citation
 
