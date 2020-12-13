@@ -45,7 +45,7 @@ a group_num and scene_num represent loading different scenes.
 
 ![](./group_1_scene_0.png)
 
-More remote api function(such as getting camera data, controlling UR5 manipulator, load questions) can be found in [enviroment.py](./enviroment.py).
+More remote api function(such as getting camera data, controlling UR5 manipulator, load questions) can be found in [environment.py](./environment.py).
 
 ## Citation
 
