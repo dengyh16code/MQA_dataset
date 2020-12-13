@@ -33,7 +33,7 @@ First, you need to unzip data.zip, then you will get:
 
 We bulid our dataset in a simulation environment named [V-REP](http://coppeliarobotics.com/). First, you need to open the our simulation scene file [Simulation.ttt](./scene.ttt) in [V-REP](http://coppeliarobotics.com/). 
 
-![image](https://github.com/dengyh16code/MQA_dataset/blob/main/simultaion.png)
+![image](https://github.com/dengyh16code/MQA_dataset/blob/main/simulation.png)
 
 ### Using the python remote api to load scene
 Then you can use the python scipt [test.py](./test.py) to load different scene in our dataset, where group_num can be taken from 0 to 9 and scene_num can be taken from 0 to 9. Different group_num and scene_num represent loading different scenes.
